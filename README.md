@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Mohamed Traoré — AI Engineer · Data Engineer" width="100%">
+    <img src="assets/banner.gif" alt="Mohamed Traoré — AI Engineer · Data Engineer · Stage PFE février 2027" width="100%">
 </p>
 
 <h2 align="center">👋 Bonjour, je suis Mohamed Traoré</h2>
