@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1626"/>
+      <stop offset="1" stop-color="#0f2a47"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1e3a5f"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect x="760" width="440" height="300" fill="url(#grid)" opacity=".9"/>
+  <!-- agent graph motif -->
+  <g stroke="#38bdf8" stroke-opacity=".55" stroke-width="2" fill="none">
+    <line x1="930" y1="150" x2="1040" y2="80"/><line x1="930" y1="150" x2="1050" y2="155"/>
+    <line x1="930" y1="150" x2="1035" y2="225"/><line x1="1040" y1="80" x2="1130" y2="120"/>
+    <line x1="1050" y1="155" x2="1130" y2="120"/><line x1="1035" y1="225" x2="1130" y2="190"/>
+    <line x1="1050" y1="155" x2="1130" y2="190"/><line x1="840" y1="105" x2="930" y2="150"/>
+    <line x1="840" y1="200" x2="930" y2="150"/>
+  </g>
+  <g fill="#0b1626" stroke="url(#acc)" stroke-width="3">
+    <circle cx="930" cy="150" r="20"/><circle cx="1040" cy="80" r="12"/><circle cx="1050" cy="155" r="12"/>
+    <circle cx="1035" cy="225" r="12"/><circle cx="1130" cy="120" r="10"/><circle cx="1130" cy="190" r="10"/>
+    <circle cx="840" cy="105" r="9"/><circle cx="840" cy="200" r="9"/>
+  </g>
+  <circle cx="930" cy="150" r="7" fill="#38bdf8"/>
+  <rect x="64" y="70" width="6" height="150" rx="3" fill="url(#acc)"/>
+  <text x="96" y="122" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#f1f5f9">Mohamed Traoré</text>
+  <text x="98" y="164" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#38bdf8">AI Engineer · Data Engineer</text>
+  <text x="98" y="200" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#94a3b8">Systèmes multi-agents · LLM &amp; RAG · Pipelines de données · Conformité &amp; sécurité</text>
+  <rect x="98" y="222" width="430" height="34" rx="17" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".5"/>
+  <text x="313" y="245" text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e0f2fe">Recherche un stage PFE · février 2027</text>
+</svg>
